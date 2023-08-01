@@ -1,10 +1,36 @@
 body {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgb(248, 248, 248);
  color #ffffff ;
+ text-align: center;
+ font-size: 130%;
 }
 
  .cabecalhoo-imagem {
         width: 20;
  }
- a {color: #ffffff;}
-    
+
+ a {color: #000000;}
+
+
+.cabecalho {
+       background-color: #000000;
+       color: aliceblue;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       pad: 30px 0;
+       text-align: center;
+}    
+
+.cabecalho-lista-item {
+       display: inline-block;
+       margin: 0px;
+       padding: 10px;
+       font-size: 25px
+}
+
+.body {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
